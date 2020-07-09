@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding: 0;
+}
+.cabecalho{
+    width: 1366px;/*Largura*/
+    height: 150px;/*altura*/
+    background-color:rgb(250, 14, 112);
+    margin:0 auto;
+    display: flex;
+    justify-content: space-between;
+    }
+    .cabecalho img{
+        width:150px;    
+        height:80px;
+    }
+    .menu{
+        width: 700px;
+        height:50px;
+        background-color: #ccc;
+    }
+    .menu ul{
+        display: flex ;
+        list-style-type: none;
+            }
+    .menu ul li a{
+        padding: 15px 40px;
+        margin: 0 2px;
+    }
+    .menu li{
+        padding-top: 15px;
+    }
+    main a{
+        padding:15px 40px;
+        margin: 0 2px;
+        /*background-color: rgba(212,42,19,0,836)*/
+    }
+    main{
+        width: 1366px;
+        background-color: rgb(164, 16, 233);
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .destaque{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: #a50404;
+        margin-top:50px;
+        margin-bottom:30px;
+    }
+    .conteudo_principal{
+        width:95%;
+        background-color:rgb(232, 67, 177);
+        margin:0 auto;
+    }
+    .conteudo_principal h2{
+        margin-left:60px;
+    }
+ .conteudo_principal article{
+    width: 40%;
+    border:solid 2px #000000;
+}
+ .artigos{
+    display: flex;
+    justify-content:space-around;
+    margin-top:50px;
+}
+.rodape{
+    width: 1366px;
+    height: 80px;
+    background-color: darkmagenta;
+    margin:0 auto;
+    text-align: center;
+}
+
+.conteudo_principal2{
+text-align: center;
+display: flex;
+padding:50px 90px;
+
+}
+.artigos2{
+    text-align: center;
+    display: flex;
+    padding:90px 90px;
+    
+    }
+    .imagem{
+        display:flex;
+        width:100;
+        margin-left: 300px;
+    }
+    
+
+
+
